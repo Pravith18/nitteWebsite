@@ -1,0 +1,163 @@
+body h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.heading1{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+.logo img {
+    max-height: 70px;
+    display:flex;
+    align-items: center;
+}
+
+
+.college-info {
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #444;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    list-style: none;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin: 5px 0;
+}
+.para1{
+    font-size: 25;
+    font-weight: 1000;
+}
+.para-sec{
+    padding: 30px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+}
+
+.image1 {
+  position: relative; 
+  display: inline-block; 
+
+}
+
+.image1 img {
+  display: block;
+  width: 100%; 
+  height: auto;
+}
+
+.image-centre {
+  display: block;
+text-align: center;
+  padding: 10px;
+}
+
+.text1 {
+  position: absolute;
+  bottom: 10px;  
+  left: 10px;   
+  color: white;  
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight:1000;
+    background: rgba(0, 0, 0, 0.6);  
+}
+
+.abt{
+    padding: 20px 120px;
+}
+.para4{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
